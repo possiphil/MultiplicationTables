@@ -6,3 +6,8 @@
 //
 
 import Foundation
+
+class Settings: ObservableObject {
+    @Published var difficulty = "Easy"
+    @Published var questionAmount = "5"
+}
